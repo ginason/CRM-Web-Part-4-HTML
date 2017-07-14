@@ -1,0 +1,45 @@
+footer, h6{
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  margin: 0 auto;
+  border: 0 solid black;
+  background-color: black;
+  color: white;
+}
+h3{
+  border: 0 solid #CEC8C5;
+  color: white;
+  background-color: #CEC8C5;
+  text-align: center;
+  height: 2em;
+  margin: 1px auto;
+}
+h5{
+  border: 0 solid #EF7C36;
+  color: black;
+  background-color: #EF7C36;
+  font-size: 20px;
+  margin: 0 auto;
+}
+li{
+  color: black;
+  height: 3em;
+  display: grid;
+}
+h4{
+  border: 0 solid #95F2EE;
+  background-color: #95F2EE;
+  margin-bottom: 0;
+}
+p{
+  border: 0 solid #95F2EE;
+  background-color: #95F2EE;
+  font-size: 15px;
+  margin-top: 0;
+
+}

@@ -1,0 +1,9 @@
+
+<h5>There are <%= @contacts.length %> contacts</h5>
+<ul>
+  <% @contacts.each do |cont|%>
+  <li><h4><a href="/contact/<%= cont.id %>">
+  <%= cont.first_name %> <%= cont.last_name %> (<%= cont.email %>)</a></h4></li>
+  <li><p><a href="/contact/<%= cont.id %>/edit">Edit</a> | <a href="/contact/<%= cont.id %>">Delete</a></p></li>
+  <% end %>
+</ul>
